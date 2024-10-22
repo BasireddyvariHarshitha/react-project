@@ -1,6 +1,5 @@
 import logo from "./logo.svg";
 import "./App.css";
-import truto_icon_logo from "./truto_icon_logo.png";
 function App() {
   return (
     <div className="App">
