@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import "./AddCustomer.css";
+import { useDispatch } from "react-redux";
+import { addCustomer } from "./CustomerSlice";
 
 function AddCustomer() {
   const [customer, setCustomer] = useState({
@@ -8,6 +10,7 @@ function AddCustomer() {
     age: "",
     city: "",
   });
+  const dispatch = useDispatch();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -16,7 +19,8 @@ function AddCustomer() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Customer Data:", customer);
+    dispatch(addCustomer(customer));
+
     setCustomer({ custNo: "", name: "", age: "", city: "" });
   };
 
