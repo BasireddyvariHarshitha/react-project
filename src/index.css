@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-  color: #ffff00; /* Yellow title */
+  color: #ffff00;
   font-size: 2em;
   margin-bottom: 20px;
   text-align: center;
@@ -23,13 +23,13 @@ body {
 .link {
   margin: 0 15px;
   text-decoration: none;
-  color: #f5c6cb; /* Light Pink */
+  color: #f5c6cb;
   font-weight: bold;
   font-size: 1.2em;
 }
 
 .content-box {
-  border: 2px solid #f5c6cb; /* Light Pink border */
+  border: 2px solid #f5c6cb;
   padding: 20px;
   margin: 0 auto;
   max-width: 600px;
@@ -37,20 +37,20 @@ body {
 }
 
 .content-title {
-  color: #ffff00; /* Yellow Text */
+  color: #ffff00;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .content-highlight {
-  color: #b2ff00; /* Lime Green */
+  color: #b2ff00;
   font-weight: bold;
   font-size: 1.2em;
   margin-bottom: 10px;
 }
 
 .content-description {
-  color: #b2ff00; /* Lime Green */
+  color: #b2ff00;
   font-size: 1em;
 }
 

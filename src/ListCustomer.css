@@ -1,13 +1,5 @@
-.list-customer-container {
-  background-color: #3498db;
-  padding: 20px;
-  color: #fff;
-  text-align: center;
-}
-
 .table-container {
   margin: 0 auto;
-  max-width: 800px;
 }
 
 .customer-table {

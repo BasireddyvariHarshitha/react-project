@@ -6,7 +6,7 @@ function ListCustomer() {
   const customers = useSelector((state) => state.customer.customers);
 
   return (
-    <div className="list-customer-container">
+    <div>
       <h1 className="title">List Customers</h1>
       <div className="table-container">
         <table className="customer-table">

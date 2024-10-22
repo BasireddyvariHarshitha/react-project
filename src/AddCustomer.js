@@ -20,12 +20,11 @@ function AddCustomer() {
   const handleSubmit = (e) => {
     e.preventDefault();
     dispatch(addCustomer(customer));
-
     setCustomer({ custNo: "", name: "", age: "", city: "" });
   };
 
   return (
-    <div className="add-customer-container">
+    <div>
       <h1 className="title">Add Customer</h1>
       <div className="form-container">
         <form onSubmit={handleSubmit}>
